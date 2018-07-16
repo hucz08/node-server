@@ -1,0 +1,17 @@
+.idea
+composer.lock
+*.log
+logs
+*runtime
+Runtime
+cache
+Cache
+node_modules
+target
+dist
+uploads
+upload
+tmp
+temp
+.svn
+.git
