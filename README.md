@@ -1,12 +1,20 @@
 # node-server
-node-restful-api-server express+pm2+sequlize+es7
+node-restful-api-server 
+
+技术栈：
+
+express+pm2+sequlize+es7
 
 
 start:
-import /sql/test.sql to your mysql database
-npm install
-npm run dev
-http://localhost:3033/api/test
+
+1.import /sql/test.sql to your mysql database
+
+2.npm install
+
+3.npm run dev
+
+4.http://localhost:3033/api/test
 
 
 接口定义遵循Restful风格规范，其中：
@@ -29,7 +37,7 @@ http://localhost:3033/api/test
 
 9 TRACE 回显服务器收到的请求，主要用于测试或诊断。
 
-如 GET /api/test?filter['name']=nnn&filter['number']=bbbb&isCount=true&pageSize=20&page=1&order= id DESC 表示获取列表数据
+如 GET /api/test?filter[name]=nnn&filter[number]=bbbb&isCount=true&pageSize=20&page=1&order= id DESC 表示获取列表数据
 
 GET /api/test?id=aaaasfsdfsdf 表示获取详情数据
 
